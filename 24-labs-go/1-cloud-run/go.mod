@@ -1,0 +1,3 @@
+module github.com/fredericobenevides/cloud-run
+
+go 1.27.2

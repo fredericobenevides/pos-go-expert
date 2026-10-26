@@ -1,0 +1,18 @@
+# Bancos de dados locais
+*.db
+*.sqlite
+*.sqlite3
+
+# Diretórios temporários
+tmp/
+
+# Dados/volumes do Docker (mantém versionados os YAMLs em 24-labs-go/*/.docker/)
+20-CLEAN-ARCH/.docker/
+
+# Binário compilado de exemplo (escape analysis)
+23-gointernals/6-escape-analysis/recursive
+
+# Artefatos de build e teste
+*.test
+coverage.out
+coverage.html
